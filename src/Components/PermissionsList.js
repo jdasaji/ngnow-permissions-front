@@ -103,7 +103,7 @@ const PermissionsList = ({
                           variant="outlined"
                           color="primary"
                           onClick={async () => {
-                            const getDATA = await onGetItemSelected(item.id);
+                            const getDATA = await onGetItemSelected(item?.id);
 
                             handleClickOpen(getDATA);
                           }}

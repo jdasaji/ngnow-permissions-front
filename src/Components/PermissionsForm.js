@@ -104,7 +104,7 @@ const PermissionForm = ({ permissions, onSave, loading, error }) => {
         <InputLabel id="permissionsType-label">Tipo de Permiso</InputLabel>
         <Select
           labelId="permissionsType-label"
-          value={permissions?.permissionsType}
+          value={permissionsType}
           onChange={(e) => {
             const newFormError = {
               ...formErrors,

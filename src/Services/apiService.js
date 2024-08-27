@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Define the base URL for the API
-const API_BASE_URL = "https://localhost:7085/api/Permissions"; // Cambia esto según tu API
+const API_BASE_URL = "https://localhost:7019/api/Permissions"; // Cambia esto según tu API
 
 // Función para obtener la información de un empleado
 export const getPermissions = async (params) => {
